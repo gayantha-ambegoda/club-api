@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubAPI", "ClubAPI\ClubAPI.csproj", "{1350BFD4-A608-4A41-9ACB-0D49A53FF351}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1350BFD4-A608-4A41-9ACB-0D49A53FF351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1350BFD4-A608-4A41-9ACB-0D49A53FF351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1350BFD4-A608-4A41-9ACB-0D49A53FF351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1350BFD4-A608-4A41-9ACB-0D49A53FF351}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8BEF9B7-5793-434D-AEC5-A97D827C6DFE}
+	EndGlobalSection
+EndGlobal
