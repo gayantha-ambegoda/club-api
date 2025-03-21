@@ -112,9 +112,6 @@ namespace ClubAPI.Migrations
                     b.Property<bool>("AutoApprove")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Field")
-                        .HasColumnType("int");
-
                     b.Property<int>("FieldId")
                         .HasColumnType("int");
 
@@ -138,9 +135,6 @@ namespace ClubAPI.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("BirthYear")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Club")
                         .HasColumnType("int");
 
                     b.Property<string>("MemberType")

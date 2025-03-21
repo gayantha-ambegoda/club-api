@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClubAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250311173150_mymig2222")]
-    partial class mymig2222
+    [Migration("20250319175723_initialMigration")]
+    partial class initialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -115,9 +115,6 @@ namespace ClubAPI.Migrations
                     b.Property<bool>("AutoApprove")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Field")
-                        .HasColumnType("int");
-
                     b.Property<int>("FieldId")
                         .HasColumnType("int");
 
@@ -141,9 +138,6 @@ namespace ClubAPI.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("BirthYear")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Club")
                         .HasColumnType("int");
 
                     b.Property<string>("MemberType")

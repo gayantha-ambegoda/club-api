@@ -82,12 +82,22 @@ namespace ClubAPI.Controllers
         // POST: api/Fields
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost("Save")]
-        public async Task<ActionResult<Field>> PostField(Field @field)
+        public async Task<ActionResult<Field>> PostField(Field field)
         {
-            _context.Fields.Add(@field);
-            await _context.SaveChangesAsync();
+            var existingClub = _context.Clubs.First(x => x.Id == field.clubId);
+            if(existingClub != null)
+            {
+                existingClub.Fields.Add(field);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            else
+            {
+                return StatusCode(500, "Club Not Found!");
+            }
+            
 
-            return Ok();
+            
         }
 
         // DELETE: api/Fields/5

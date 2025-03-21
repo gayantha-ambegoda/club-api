@@ -12,7 +12,7 @@ namespace ClubAPI
         public DbSet<UserRoles> UserRoles { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=sample_club;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
+            optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=sample_club_v2;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -27,7 +27,10 @@ namespace ClubAPI
                  j => j.Property(e => e.Role).HasDefaultValue("")
                 );
             modelBuilder.Entity<Field>().HasMany(x => x.Parts).WithOne(f => f.field).HasForeignKey(fk => fk.FieldId);
+            modelBuilder.Entity<Booking>().HasOne(e => e.part).WithMany(e => e.booking).HasForeignKey(e => e.FieldPartId).IsRequired();
+            modelBuilder.Entity<Booking>().HasOne(e => e.user).WithMany(e => e.Bookings).HasForeignKey(e => e.UserId).IsRequired();
         }
         public DbSet<ClubAPI.Models.Team> Team { get; set; } = default!;
+        public DbSet<ClubAPI.Models.Booking> Booking { get; set; } = default!;
     }
 }

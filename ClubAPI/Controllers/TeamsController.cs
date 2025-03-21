@@ -81,16 +81,17 @@ namespace ClubAPI.Controllers
         {
             try
             {
-                _context.Team.Add(new Team()
+                var existingClub = _context.Clubs.Find(team.clubId);
+                if(existingClub != null)
                 {
-                    Name = team.Name,
-                    MemberType = team.MemberType,
-                    BirthYear = team.BirthYear,
-                    clubId = team.clubId
-                });
-                await _context.SaveChangesAsync();
-
-                return Ok(team);
+                    existingClub.Teams.Add(team);
+                    await _context.SaveChangesAsync();
+                    return Ok();
+                }
+                else
+                {
+                    return StatusCode(500, "Club Not Found!");
+                }
             }catch(Exception ex)
             {
                 return StatusCode(500, ex.Message);

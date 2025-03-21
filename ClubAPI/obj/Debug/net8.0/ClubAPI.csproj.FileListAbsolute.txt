@@ -287,3 +287,4 @@ C:\Users\Lenovo\Documents\Projects\ClubAPI\ClubAPI\bin\Debug\net8.0\ru\Microsoft
 C:\Users\Lenovo\Documents\Projects\ClubAPI\ClubAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Lenovo\Documents\Projects\ClubAPI\ClubAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Lenovo\Documents\Projects\ClubAPI\ClubAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Lenovo\Documents\Projects\ClubAPI\ClubAPI\obj\Debug\net8.0\ClubAPI.sourcelink.json

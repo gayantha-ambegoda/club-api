@@ -26,5 +26,6 @@ namespace ClubAPI.Models
         public bool AutoApprove { get; set; }
         public int FieldId { get; set; }
         public Field field { get; set; } = null!;
+        public ICollection<Booking> booking { get; set; } = new List<Booking>();
     }
 }

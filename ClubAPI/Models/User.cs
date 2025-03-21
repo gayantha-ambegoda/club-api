@@ -14,5 +14,6 @@
 
         public List<Team> Team { get; } = [];
         public List<TeamMember> teamMembers { get; } = [];
+        public ICollection<Booking> Bookings { get; } = new List<Booking>();
     }
 }
