@@ -52,37 +52,6 @@ namespace ClubAPI.Controllers
             return booking;
         }
 
-        // PUT: api/Booking/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutBooking(int id, Booking booking)
-        {
-            if (id != booking.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(booking).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!BookingExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
         // POST: api/Booking
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost("Save")]
