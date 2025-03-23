@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ClubAPI;
 using ClubAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ClubAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class BookingController : ControllerBase
@@ -38,6 +40,14 @@ namespace ClubAPI.Controllers
             {
                 return NotFound();
             }
+
+            return booking;
+        }
+
+        [HttpGet("GetByPart/{id}")]
+        public async Task<ActionResult<List<Booking>>> GetBookingByPart(int id)
+        {
+            var booking = await _context.Booking.Where(x => x.FieldPartId == id).ToListAsync();
 
             return booking;
         }
@@ -76,33 +86,26 @@ namespace ClubAPI.Controllers
         // POST: api/Booking
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost("Save")]
-        public async Task<ActionResult<Booking>> PostBooking(Booking booking)
+        public async Task<ActionResult<Booking>> PostBooking(BookingRequest booking)
         {
-            _context.Booking.Add(booking);
+            var userId = User.Claims.FirstOrDefault(x => x.Type.Equals("ID"));
+            var fieldParts = _context.Parts.First(x => x.Id == booking.FieldPartId);
+
+            if(fieldParts != null)
+            {
+                fieldParts.booking.Add(new Booking()
+                {
+                    FieldPartId = booking.FieldPartId,
+                    Date = booking.Date,
+                    StartTime = booking.StartTime,
+                    EndTime = booking.EndTime,
+                    status = booking.status,
+                    UserId = Int32.Parse(userId.Value)
+                });
+            }
             await _context.SaveChangesAsync();
 
             return Ok(booking);
-        }
-
-        // DELETE: api/Booking/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteBooking(int id)
-        {
-            var booking = await _context.Booking.FindAsync(id);
-            if (booking == null)
-            {
-                return NotFound();
-            }
-
-            _context.Booking.Remove(booking);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool BookingExists(int id)
-        {
-            return _context.Booking.Any(e => e.Id == id);
         }
     }
 }

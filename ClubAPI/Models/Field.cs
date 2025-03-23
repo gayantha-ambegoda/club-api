@@ -28,4 +28,12 @@ namespace ClubAPI.Models
         public Field field { get; set; } = null!;
         public ICollection<Booking> booking { get; set; } = new List<Booking>();
     }
+
+    public class PartRequest
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public bool AutoApprove { get; set; }
+        public int FieldId { get; set; }
+    }
 }
