@@ -36,7 +36,7 @@ namespace ClubAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Club>> GetClub(int id)
         {
-            var club = await _context.Clubs.Include(c => c.Teams).Include(c => c.Fields).FirstOrDefaultAsync(i => i.Id == id);
+            var club = await _context.Clubs.FirstOrDefaultAsync(i => i.Id == id);
 
             if (club == null)
             {

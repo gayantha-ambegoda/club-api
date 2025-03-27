@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\controllers\\clubscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|solutionrelative:clubapi\\controllers\\clubscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|solutionrelative:clubapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\controllers\\fieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|solutionrelative:clubapi\\controllers\\fieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|solutionrelative:clubapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|solutionrelative:clubapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\controllers\\clubscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|solutionrelative:clubapi\\controllers\\clubscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Migrations\\20250323054953_newmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClubAPI\\Migrations\\20250323054953_newmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\controllers\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,6 +76,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\migrations\\20250319175723_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|solutionrelative:clubapi\\migrations\\20250319175723_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|c:\\users\\lenovo\\documents\\projects\\clubapi\\clubapi\\migrations\\20250323054953_newmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350BFD4-A608-4A41-9ACB-0D49A53FF351}|ClubAPI\\ClubAPI.csproj|solutionrelative:clubapi\\migrations\\20250323054953_newmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -89,11 +89,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FieldsController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Controllers\\FieldsController.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Controllers\\FieldsController.cs",
@@ -108,58 +108,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "ClubAPI\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Booking.cs",
-              "RelativeToolTip": "ClubAPI\\Models\\Booking.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA7wBoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T15:50:43.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Field.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Field.cs",
-              "RelativeDocumentMoniker": "ClubAPI\\Models\\Field.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Field.cs",
-              "RelativeToolTip": "ClubAPI\\Models\\Field.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwCMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T17:41:46.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ClubAPI\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ClubAPI\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB4AAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:25:38.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Controllers\\BookingController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Controllers\\BookingController.cs",
               "RelativeToolTip": "ClubAPI\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA1wGwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T17:53:57.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "20250323054953_newmigration1.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Migrations\\20250323054953_newmigration1.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Migrations\\20250323054953_newmigration1.cs",
@@ -167,12 +128,11 @@
               "RelativeToolTip": "ClubAPI\\Migrations\\20250323054953_newmigration1.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:49:53.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T05:49:53.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Club.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Club.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Models\\Club.cs",
@@ -184,20 +144,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ClubsController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Controllers\\ClubsController.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Controllers\\ClubsController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Controllers\\ClubsController.cs",
               "RelativeToolTip": "ClubAPI\\Controllers\\ClubsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAMwGEAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAMwCYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T16:19:49.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ClubAPI\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ClubAPI\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB4AAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:25:38.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Field.cs",
+              "RelativeDocumentMoniker": "ClubAPI\\Models\\Field.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Field.cs",
+              "RelativeToolTip": "ClubAPI\\Models\\Field.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T17:41:46.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "ClubAPI\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Booking.cs",
+              "RelativeToolTip": "ClubAPI\\Models\\Booking.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA7wBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:50:43.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PartsController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Controllers\\PartsController.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Controllers\\PartsController.cs",
@@ -205,12 +201,11 @@
               "RelativeToolTip": "ClubAPI\\Controllers\\PartsController.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAswGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T02:37:39.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T02:37:39.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Models\\User.cs",
@@ -222,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\Team.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Models\\Team.cs",
@@ -234,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "TeamsController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Controllers\\TeamsController.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Controllers\\TeamsController.cs",
@@ -246,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "JWTServices.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Services\\JWTServices.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Services\\JWTServices.cs",
@@ -258,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Program.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Program.cs",
@@ -270,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "20250319175723_initialMigration.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Migrations\\20250319175723_initialMigration.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Migrations\\20250319175723_initialMigration.cs",
@@ -282,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ClubAPI\\appsettings.json",
@@ -294,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Controllers\\UserController.cs",
@@ -307,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "SignInRequest.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Models\\SignInRequest.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Models\\SignInRequest.cs",
@@ -319,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\Projects\\ClubAPI\\ClubAPI\\Extras\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "ClubAPI\\Extras\\PasswordHasher.cs",
@@ -331,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/sample_club/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/sample_club/True/SqlTable/dbo.Users.sql",
